@@ -219,6 +219,7 @@ Built using:
 - Workers AI (Llama 3)
 - Cloudflare Workflows
 - D1 Database
+- With the help of Claude and Gemini
 
 ---
 
