@@ -43,7 +43,7 @@ Feedback Submission → Workflow Trigger → AI Analysis → D1 Storage → Dash
 1. **Clone the repository**
 ```bash
 git clone https://github.com/ap2555-dot/PulseCheck.git
-cd damp-sunset-0d05
+cd PulseCheck-main/damp-sunset-0d05
 ```
 
 2. **Install dependencies**
