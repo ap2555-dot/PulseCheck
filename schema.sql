@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS feedback (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  source TEXT NOT NULL,
+  content TEXT NOT NULL,
+  sentiment TEXT,
+  category TEXT,
+  urgency TEXT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS aggregated_stats (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  stat_type TEXT NOT NULL,
+  stat_value TEXT NOT NULL,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
