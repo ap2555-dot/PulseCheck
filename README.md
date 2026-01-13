@@ -194,18 +194,6 @@ The workflow uses **Workers AI** with the `@cf/meta/llama-3-8b-instruct` model t
 
 ---
 
-## 🎨 Features Roadmap
-
-Potential enhancements:
-- [ ] Slack/Discord notifications for high-urgency feedback
-- [ ] Duplicate detection using semantic search
-- [ ] Export reports to PDF/CSV
-- [ ] Multi-user authentication
-- [ ] Custom categorization rules
-- [ ] Trend analysis over time
-
----
-
 ## 📝 License
 
 This project was created as part of the Cloudflare Product Manager Intern Assignment (2026).
